@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытаться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Настя</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name scatter"><span class="char">A</span><span class="char">R</span><span class="char">T</span><span class="char">N</span><span class="char">a</span><span class="char">s</span><span class="char">t</span><span class="char">a</span><span class="char">s</span><span class="char">y</span></div>
+
+    <div class="block">
+      <div class="block-title">контакты</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="http://t.me/Stura1" target="_blank" class="scatter"><span class="char">t</span><span class="char">e</span><span class="char">l</span><span class="char">e</span><span class="char">g</span><span class="char">r</span><span class="char">a</span><span class="char">m</span></a>
+        </div>
+        <div class="entry">
+          <a href="mailto:nastya.fatova@mail.ru" class="scatter"><span class="char">n</span><span class="char">a</span><span class="char">s</span><span class="char">t</span><span class="char">y</span><span class="char">a</span><span class="char">.</span><span class="char">f</span><span class="char">a</span><span class="char">t</span><span class="char">o</span><span class="char">v</span><span class="char">a</span><span class="char">@</span><span class="char">m</span><span class="char">a</span><span class="char">i</span><span class="char">l</span><span class="char">.</span><span class="char">r</span><span class="char">u</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">чем занимаюсь</div>
+      <div class="entry">
+        <a href="https://www.qa.studio/" target="_blank" class="scatter"><span class="char">о</span><span class="char">б</span><span class="char">у</span><span class="char">ч</span><span class="char">а</span><span class="char">ю</span><span class="char">с</span><span class="char">ь</span><span class="char">&nbsp;</span><span class="char">в</span><span class="char">&nbsp;</span><span class="char">q</span><span class="char">a</span><span class="char">.</span><span class="char">s</span><span class="char">t</span><span class="char">u</span><span class="char">d</span><span class="char">i</span><span class="char">o</span></a>
+      </div>
+      <div class="entry">
+        <a
+          href="https://www.instagram.com/anastasyart17"
+          class="scatter"
+        ><span class="char">р</span><span class="char">и</span><span class="char">с</span><span class="char">у</span><span class="char">ю</span><span class="char">&nbsp;</span><span class="char">к</span><span class="char">а</span><span class="char">р</span><span class="char">т</span><span class="char">и</span><span class="char">н</span><span class="char">к</span><span class="char">и</span></a>
+      </div>
+      <div class="entry">
+        <a href="https://admin.tomsk.ru/pgs/bfc" target="_blank" class="scatter"><span class="char">р</span><span class="char">а</span><span class="char">б</span><span class="char">о</span><span class="char">т</span><span class="char">а</span><span class="char">ю</span></a>
+      </div>
+    </div>
+  </body>
+</html>
